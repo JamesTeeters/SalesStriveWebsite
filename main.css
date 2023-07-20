@@ -1,0 +1,176 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #343a40 !important;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ddd;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url("path/to/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: #f8f9fa;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 2rem;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Services Section */
+  .services {
+    background-color: #f8f9fa;
+  }
+  
+  .services h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 2rem;
+  }
+  
+  .services .card {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .services .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .services .card img {
+    border-radius: 10px;
+  }
+  
+  .services .card h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1rem;
+  }
+  
+  .services .card p {
+    color: #555;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #f8f9fa;
+  }
+  
+  .contact h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 2rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1.5rem 0;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Learn More Sections */
+  .learn-more-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .learn-more-card {
+    border: none;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .learn-more-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .learn-more-card img {
+    border-radius: 10px;
+  }
+  
+  .learn-more-card h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1rem;
+  }
+  
+  .learn-more-card p {
+    color: #555;
+  }
+  
+  .learn-more-section {
+    padding: 4rem 0;
+  }
+  
