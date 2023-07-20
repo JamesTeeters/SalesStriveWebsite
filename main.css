@@ -1,176 +1,143 @@
-/* styles.css */
-
-/* Global styles */
+/* Global Styles */
 body {
-    font-family: "Arial", sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-  }
-  
-  /* Navigation Bar */
-  .navbar {
-    background-color: #343a40 !important;
-  }
-  
-  .navbar-brand {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .navbar-nav .nav-link {
-    color: #fff;
-  }
-  
-  .navbar-nav .nav-link:hover {
-    color: #ddd;
-  }
-  
-  /* Hero Section */
-  .hero {
-    background-image: url("path/to/hero-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-  }
-  
-  .hero h1 {
-    font-size: 4rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-  }
-  
-  .hero p {
-    font-size: 1.5rem;
-    margin-bottom: 2.5rem;
-  }
-  
-  /* About Section */
-  .about {
-    background-color: #f8f9fa;
-  }
-  
-  .about h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #343a40;
-    margin-bottom: 2rem;
-  }
-  
-  .about p {
-    font-size: 1.2rem;
-    color: #555;
-  }
-  
-  /* Services Section */
-  .services {
-    background-color: #f8f9fa;
-  }
-  
-  .services h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #343a40;
-    margin-bottom: 2rem;
-  }
-  
-  .services .card {
-    border: none;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-  }
-  
-  .services .card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .services .card img {
-    border-radius: 10px;
-  }
-  
-  .services .card h5 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #343a40;
-    margin-bottom: 1rem;
-  }
-  
-  .services .card p {
-    color: #555;
-  }
-  
-  /* Contact Section */
-  .contact {
-    background-color: #f8f9fa;
-  }
-  
-  .contact h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #343a40;
-    margin-bottom: 2rem;
-  }
-  
-  /* Footer */
-  .footer {
-    background-color: #343a40;
-    color: #fff;
-    padding: 1.5rem 0;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
-  /* Learn More Sections */
-  .learn-more-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #343a40;
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  
-  .learn-more-card {
-    border: none;
-    background-color: #f8f9fa;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-  }
-  
-  .learn-more-card:hover {
-    transform: scale(1.03);
-  }
-  
-  .learn-more-card img {
-    border-radius: 10px;
-  }
-  
-  .learn-more-card h5 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #343a40;
-    margin-bottom: 1rem;
-  }
-  
-  .learn-more-card p {
-    color: #555;
-  }
-  
-  .learn-more-section {
-    padding: 4rem 0;
-  }
-  
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7f7f7; /* Light gray background */
+}
+
+/* Header Styles */
+.navbar {
+  background-color: #222; /* Dark gray navbar background */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #fff; /* White text on hover */
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff; /* White text for links */
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #007bff; /* Primary blue color */
+  background-image: url('path/to/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff; /* White text */
+}
+
+.hero p {
+  font-size: 24px;
+  color: #fff; /* White text */
+}
+
+.hero a {
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 2px solid #fff; /* White border */
+  color: #fff; /* White text */
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hero a:hover {
+  background-color: #fff; /* White background on hover */
+  color: #007bff; /* Primary blue text on hover */
+}
+
+/* Package Options Section Styles */
+.packages {
+  padding: 80px 0;
+}
+
+.packages h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222; /* Dark gray text */
+}
+
+.packages .card {
+  border: none;
+  background-color: #f7f7f7; /* Light gray card background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.packages .card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.packages .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; /* Primary blue text */
+  margin-bottom: 20px;
+}
+
+.packages ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.packages ul li {
+  padding-left: 20px;
+  position: relative;
+}
+
+.packages ul li::before {
+  content: "\2022"; /* Bullet point (•) */
+  position: absolute;
+  left: 0;
+  color: #007bff; /* Primary blue text */
+}
+
+.packages .card-text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.packages .btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Primary blue button background */
+  color: #fff; /* White text on buttons */
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.packages .btn:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}
+
+/* Other Section Styles - Customize as needed */
+
+/* Footer Styles */
+.footer {
+  background-color: #333; /* Dark gray footer background */
+  color: #fff; /* White text in the footer */
+  text-align: center;
+  padding: 20px 0;
+}
